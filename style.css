@@ -153,21 +153,21 @@ section{
 }
 
 .home-img{
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .home-img img{
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px #b1b2ac;
+    box-shadow: 0 0 15px #b1b2ac;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .home-img img:hover{
     transform: scale(1.01);
-    filter: drop-shadow( 0 0 25px #b1b2ac);
+    filter: drop-shadow( 0 0 11px #b1b2ac);
 }
 
 .home-content p{
