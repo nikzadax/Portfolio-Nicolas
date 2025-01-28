@@ -15,7 +15,7 @@
     --bg-color: #000000;
     --second-bg-color: #161616;
     --text-color: #fff;
-    --main-color: #9b9c97;
+    --main-color: #7a1e35;
 }
 
 html{
@@ -326,10 +326,14 @@ section{
 
 .service-box{
     background-color: var(--main-color);
-    height: 300px;
+    height: 400px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+.service-box a{
+    color: var(--text-color);
 }
 
 .service-box:hover {
@@ -384,7 +388,7 @@ section{
     background: var(--bg-color);
 }
 .skills .container{
-    background: #b1b2ac4f;
+    background: #c82e3b57;
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -675,7 +679,7 @@ footer .copyright{
     }
     .services-container{
         padding-bottom: 7rem;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin: 0 5rem;
     }
 }
@@ -691,5 +695,13 @@ footer .copyright{
     }
     .footer{
         padding: 2rem 3%;
+    }
+}
+@media (max-width:895){
+    .services h2{
+        margin-bottom: 3rem;
+    }
+    .services-container {
+        grid-template-columns: repeat(1,1fr);
     }
 }
