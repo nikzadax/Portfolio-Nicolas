@@ -8,32 +8,166 @@
     <title>Portfolio Nicolas</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="" class="logo">Nicolas Melo</a>
 
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="">Habilidades</a>
-            <a href="">Experiências</a>
-            <a href="">Sobre</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Ensino</a>
         </nav>
     </header>
-    <section class="home">
-        <div class="image-home">
-            <img src="../nicolasmelo.github.io/IMG/5c7cfb2040913a4a01a9d6b6ccd8771d.jpg" alt="">
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="../nicolasmelo.github.io/IMG/dd660f0d52608feffa14b293db069c47.jpg" alt="">
         </div>
         <div class="home-content">
-            <h1>Olá, Me chamo <span>Nicolas</span> </h1>
-            <h3 class="typing-text">Sou um <span></span></h3>
-            <p></p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <h1>Me chamo <span>Nicolas Melo</span></h1>
+            <h3 class="typing-text">Eu sou <span></span></h3>
+            <p>Estudante de Desenvolvimento Web e Multimédia no IPCA. Durante minha formação, foquei em aprender diferentes liguagens/tecnologias como C#, PHP, Node.js, MySQL, TypeScript e integração de APIs</p>
+
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/nicolas-andre-cavalcante-de-melo-b4b54226b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/nikzadax" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:nicolasandrecm2@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                
             </div>
-            <a href="" class="button">Hire me</a>
+
+            <a href="" class="btn">Download CV</a>
         </div>
     </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Portfolio</h2>
+        
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Sistema de Faturação</h4>
+                    <p>Desenvolvimento de um sistema de faturação com acoplamento fraco, com objetivo de automatizar e facilitar o processe de geração de faturas.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info" href="">
+                    <h4>Gestão de alugueres de automóveis</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Developer</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/html.png" alt="">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/css-3.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/js.png" alt="">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/angular.png" alt="">
+                        <span>Angular</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/php.png" alt="">
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/c-sharp.png" alt="">
+                        <span>C#</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/typescript.png" alt="">
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/node-js.png" alt="">
+                        <span>Node.js</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="../nicolasmelo.github.io/IMG/mysql.png" alt="">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Meu <span>Ensino</span></h2>
+        <div class="timeline">
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Escola Secundária de Carlos Amarante</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Técnino de Programdor de Informática</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Instituto Politécnico do Cávado e do Ave</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Desenvolvimento Web e Multimédia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/nicolas-andre-cavalcante-de-melo-b4b54226b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/nikzadax" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">FAQ</a></li>
+            <li><a href="#services">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Ensino</a></li>
+        </ul>
+    </footer>
+
+    <script src="../nicolasmelo.github.io/script.js"></script>
 </body>
 </html>
