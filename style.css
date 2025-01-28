@@ -161,6 +161,7 @@ section{
     width: 32vw;
     border-radius: 50%;
     box-shadow: 0 0 25px #b1b2ac;
+    transition: 0.3s ease;
     cursor: pointer;
 }
 
